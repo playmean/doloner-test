@@ -1,0 +1,21 @@
+{
+    "description": "",
+    "type": "http",
+    "options": {
+        "method": "GET",
+        "url": "https://ipinfo.io",
+        "headers": [
+            {
+                "key": "Accept",
+                "value": "application/json"
+            }
+        ],
+        "settings": {
+            "ssl_verification": true,
+            "follow_redirects": false,
+            "url_encode": true,
+            "minify_body": true,
+            "disable_cookie_jar": false
+        }
+    }
+}
