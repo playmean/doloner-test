@@ -1,6 +1,6 @@
 {
     "description": "first folder with first knocks",
     "variables": {
-        "test-var": "test-value"
+        "host": "ipinfo.io"
     }
 }
