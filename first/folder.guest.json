@@ -1,6 +1,6 @@
 {
     "description": "first folder with first knocks",
     "variables": {
-        "host": "ipinfo.io"
+        "url": "https://jsonplaceholder.typicode.com/todos/1"
     }
 }
