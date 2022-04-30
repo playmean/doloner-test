@@ -1,15 +1,17 @@
 {
     "description": "",
     "type": "http",
+    "scripts": {
+        "pre-request": "first/auth.lua"
+    },
     "options": {
         "method": "GET",
         "url": "$url",
-        "headers": [
-            {
-                "key": "Accept",
+        "headers": {
+            "Accept": {
                 "value": "application/json"
             }
-        ],
+        },
         "settings": {
             "ssl_verification": true,
             "follow_redirects": false,
